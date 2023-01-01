@@ -1,0 +1,29 @@
+---
+elements:
+  - elementId: Biooil
+    specificHeatCapacity: 1.97
+    thermalConductivity: 0.175
+    liquidCompression: 1.01
+    speed: 100
+    solidSurfaceAreaMultiplier: 1
+    liquidSurfaceAreaMultiplier: 1
+    gasSurfaceAreaMultiplier: 1
+    strength: 0.7
+    highTemp: 372.5
+    lowTemp: 284.5
+    highTempTransitionTarget: NaturalGas
+    lowTempTransitionTarget: Ice
+    defaultTemperature: 300
+    defaultMass: 916
+    maxMass: 916
+    molarMass: 180
+    lightAbsorptionFactor: 0.25
+    radiationAbsorptionFactor: 0.8
+    radiationPer1000Mass: 0
+    tags:
+    - AnyWater
+    isDisabled: false
+    state: Liquid
+    localizationID: STRINGS.ELEMENTS.BRINE.NAME
+    description: STRINGS.ELEMENTS.BRINE.DESC
+    dlcId: ""
